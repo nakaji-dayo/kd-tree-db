@@ -12,9 +12,9 @@ dependencies:
     - stack build --test --only-dependencies
     - mkdir -p ~/bin && stack install --local-bin-path ~/bin
     
-# test:
-#   override:
-#     - stack test
+test:
+  override:
+    - stack test
 
 general:
   artifacts:

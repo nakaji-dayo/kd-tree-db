@@ -34,8 +34,13 @@ test-suite kd-tree-db-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
+  default-extensions:  OverloadedStrings
   build-depends:       base
                      , kd-tree-db
+                     , hspec
+                     , QuickCheck
+                     , msgpack-rpc
+                     , transformers
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 

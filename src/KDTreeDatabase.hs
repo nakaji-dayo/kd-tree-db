@@ -1,4 +1,7 @@
-module KDTreeDatabase (KDTreeDatabase.serve) where
+module KDTreeDatabase (
+    KDTreeDatabase.serve
+    , point3dSquaredDistance
+    ) where
 
 import qualified Data.KdMap.Static as KDM
 import Network.MessagePack.Server as MPS
