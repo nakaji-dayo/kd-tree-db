@@ -1,14 +1,14 @@
 name:                kd-tree-db
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            kd-tree in-memory database
 description:         Please see README.md
 homepage:            http://github.com/githubuser/kd-tree-db#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2010 Author Here
-category:            Web
+author:              Daishi Nakajima
+maintainer:          nakaji.dayo@gmail.com
+copyright:           2016 Daishi Nakajima
+category:            Database
 build-type:          Simple
 -- extra-source-files:
 cabal-version:       >=1.10
